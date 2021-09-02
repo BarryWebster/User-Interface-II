@@ -63,3 +63,27 @@ table {
     section {
         padding: 4% 0;
     }
+
+    /*Header Section*/
+
+    /*Top Section*/
+    .top {
+        display: flex;
+    }
+
+    /*Center Section*/
+    .center {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .project-pics {
+        width: 30%
+    }
+
+    /*Footer Section*/
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        
+    }
