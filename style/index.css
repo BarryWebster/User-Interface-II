@@ -1,5 +1,5 @@
 /*CSS Reset*/
-html, body, div, span, applet, object, iframe,
+/*html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -14,12 +14,13 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	/*border: 0;*/
+	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers */
+
+/* HTML5 display-role reset for older browsers 
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -39,10 +40,11 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
-}
+}*/
+
 * {
     box-sizing; border-box;
-    border:1px solid grey;
+
     max-width:100%;
 
 }
@@ -65,10 +67,23 @@ table {
     }
 
     /*Header Section*/
+    header {
+        background-color: #f20c0c;
+        padding: 20px;
+        margin-bottom: 15px;
+        color: #02f5e5;
+
+    }
 
     /*Top Section*/
     .top {
         display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .top-text {
+        padding: 20px;
+        width: 50%;
     }
 
     /*Center Section*/
@@ -83,7 +98,15 @@ table {
     /*Footer Section*/
 
     footer {
+        background-color: #f20c0c;
+        text-align: center;
+        padding: 20px;
+        color: black
         display: flex;
         flex-direction: column;
         
+    }
+
+    footer h2 {
+        color: #02f5e5
     }
