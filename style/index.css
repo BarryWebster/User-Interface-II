@@ -46,7 +46,6 @@ table {
     box-sizing; border-box;
     max-width:100%;
     border-radius: 20px;
-
 }
     /* General Styles*/
     html{
@@ -66,6 +65,8 @@ table {
     section {
         padding: 4% 0;
     }
+
+  
 
     /*Header Section*/
     header {
@@ -103,12 +104,13 @@ table {
 
     footer {
         background-color: #f20c0c;
+    }
+    .bottom-text {
         text-align: center;
         padding: 20px;
         color: black
         display: flex;
         flex-direction: column;
-        
     }
 
     footer h2 {
@@ -117,12 +119,12 @@ table {
 
     button {
         background-color: black;
-        color: white;
+        color:  #02f5e5;
         border: black solid 1px;
     }
     button:hover {
     
-        background-color: white;
+        background-color:  #02f5e5;
         color: black;
         border: black solid 1px;
         padding: 5px 10px;
@@ -132,3 +134,16 @@ table {
         text-decoration: none;
         color: inherit;
     }
+
+    h4 {
+        color:#02f5e5;
+        font-style: bold;
+    }
+
+    .links {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+   
