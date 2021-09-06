@@ -46,6 +46,7 @@ table {
     box-sizing; border-box;
     max-width:100%;
     border-radius: 20px;
+   
 }
     /* General Styles*/
     html{
@@ -57,6 +58,8 @@ table {
         color: #4f4f4f;
         font-family: 'Kaisei Tokumin', serif;
         background-color: #c7f2eb;
+        
+       
     }
    
     span{
@@ -74,7 +77,6 @@ table {
         padding: 20px;
         margin-bottom: 15px;
         color: #02f5e5;
-
     }
 
     /*Top Section*/
@@ -121,6 +123,7 @@ table {
         background-color: black;
         color:  #02f5e5;
         border: black solid 1px;
+        margin: auto;
     }
     button:hover {
     
@@ -145,5 +148,44 @@ table {
         flex-direction: column;
         text-align: center;
     }
+/*Media Queries*/
+@media(max-width:800px) {
+    .center {
+        flex-direction: column;
+    }
 
+    html {
+        font-size: 100%;
+    }
+
+    button {
+        font-size: 100%;
+    }
    
+}
+
+@media(max-width:500px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    h1 {
+        text-align: center;
+    }
+  
+    .top{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .top-text {
+        text-align: center;
+        margin: auto;
+        padding: 5%;
+    }
+
+    .center {
+        flex-direction: column;
+    }
+}
