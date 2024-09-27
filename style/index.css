@@ -1,1 +1,149 @@
-/* Add CSS styling here */
+/*CSS Reset*/
+/*html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers 
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}*/
+
+* {
+    box-sizing; border-box;
+    max-width:100%;
+    border-radius: 20px;
+}
+    /* General Styles*/
+    html{
+        font-size: 62.5%;
+    }
+        body{
+        font-size: 1.6rem;
+        line-height: 1.5;
+        color: #4f4f4f;
+        font-family: 'Kaisei Tokumin', serif;
+        background-color: #c7f2eb;
+    }
+   
+    span{
+        font-weight: bold;
+    }
+    section {
+        padding: 4% 0;
+    }
+
+  
+
+    /*Header Section*/
+    header {
+        background-color: #f20c0c;
+        padding: 20px;
+        margin-bottom: 15px;
+        color: #02f5e5;
+
+    }
+
+    /*Top Section*/
+    .top {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .top-text {
+        padding: 20px;
+        width: 50%;
+    }
+
+    /*Center Section*/
+    .center {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        padding: 20px;
+    }
+    .project-element {
+        text-align: center;
+        padding: 20px;
+    }
+
+    /*Footer Section*/
+
+    footer {
+        background-color: #f20c0c;
+    }
+    .bottom-text {
+        text-align: center;
+        padding: 20px;
+        color: black
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer h2 {
+        color: #02f5e5
+    }
+
+    button {
+        background-color: black;
+        color:  #02f5e5;
+        border: black solid 1px;
+    }
+    button:hover {
+    
+        background-color:  #02f5e5;
+        color: black;
+        border: black solid 1px;
+        padding: 5px 10px;
+    }
+
+    button a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    h4 {
+        color:#02f5e5;
+        font-style: bold;
+    }
+
+    .links {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+   
